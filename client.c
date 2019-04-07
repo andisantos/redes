@@ -9,6 +9,7 @@
 #include <string.h> 
 #include <sys/socket.h> 
 #include <sys/types.h> 
+#include "common.h"
 
 int main (int argc, char **argv) {
     if (argc < 2) {
@@ -42,23 +43,167 @@ int main (int argc, char **argv) {
         fprintf(stderr, "ERROR: %s\n", strerror(errno));
         return 2;
     }
+    puts("Connected to server.");
 
 	const char *menu_str = 
-	"Escolha uma das opcoes:\n\n"
+	"\n\n\nEscolha uma das opcoes:\n\n"
     "(1) listar todas as pessoas formadas em um determinado curso;\n"
 	"(2) listar as habilidades dos perfis que moram em uma determinada cidade;\n"
 	"(3) acrescentar um a nova experiencia em um perfil;\n"
 	"(4) dado o email do perfil, retornar sua experiencia;\n"
 	"(5) listar todas as informacoes de todos os perfis;\n"
-	"(6) dado o email d e um perfil, retornar suas informacoes.\n"
+	"(6) dado o email de um perfil, retornar suas informacoes.\n"
 	"\n\n";
 
 	for (;;) {
 		puts(menu_str);
-		int option;
-        getchar();
+        char c;
+        scanf(" %c", &c);
 
+        int option = OPTION_1 + (c - '1');
+        
+        switch (option) {
+            case OPTION_1:
+                {
+                    int c;
+                    while ((c = getchar()) != '\n' && c != EOF);
 
+                    printf("Digite o nome do curso: ");
+                    char course[100] = { 0 }; // NOTE: buffer overflow possible
+                    scanf(" %s", course);
+                    //fgets(course, sizeof(course), stdin);
+                    //printf("\nRead: %s\n", course);
+
+                    char send_buffer[101] = { option }; 
+                    strcpy(send_buffer+1, course);
+                    write(socket_fd, send_buffer, sizeof(send_buffer)); 
+                    char recv_buffer[1000] = { 0 };
+                    recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+                    printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
+                }
+                break;
+            case OPTION_2:
+                {
+                    int c;
+                    while ((c = getchar()) != '\n' && c != EOF);
+
+                    printf("Digite o nome da cidade: ");
+                    char city[100] = { 0 }; // NOTE: buffer overflow possible
+                    scanf(" %[^\n]", city);
+                    getchar();
+
+                    char send_buffer[101] = { option }; 
+                    strcpy(send_buffer+1, city);
+                    write(socket_fd, send_buffer, sizeof(send_buffer)); 
+                    char recv_buffer[1000] = { 0 };
+                    recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+                    printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
+                }
+                break;
+            case OPTION_3:
+                {
+                    int c;
+                    while ((c = getchar()) != '\n' && c != EOF);
+
+                    printf("Digite o email do perfil: ");
+                    char email[100] = { 0 }; // NOTE: buffer overflow possible
+                    scanf(" %[^\n]", email);
+                    getchar();
+
+                    printf("Digite o nome da experiencia que deseja adicionar: ");
+                    char experience[100] = { 0 }; // NOTE: buffer overflow possible
+                    scanf(" %[^\n]", experience);
+                    getchar();
+
+                    char send_buffer[201] = { option }; 
+                    strcpy(send_buffer+1, email);
+                    strcpy(send_buffer+101, experience);
+                    write(socket_fd, send_buffer, sizeof(send_buffer)); 
+                    char recv_buffer[1000] = { 0 };
+                    recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+                    printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
+                }
+                break;
+            case OPTION_4:
+                {
+                    int c;
+                    while ((c = getchar()) != '\n' && c != EOF);
+
+                    printf("Digite o email do perfil: ");
+                    char email[100] = { 0 }; // NOTE: buffer overflow possible
+                    scanf(" %[^\n]", email);
+                    getchar();
+
+                    char send_buffer[101] = { option }; 
+                    strcpy(send_buffer+1, email);
+                    write(socket_fd, send_buffer, sizeof(send_buffer)); 
+                    char recv_buffer[1000] = { 0 };
+                    recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+                    printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
+                }
+                break;
+            case OPTION_5:
+                {
+                    char send_buffer[1] = { option }; 
+                    write(socket_fd, send_buffer, sizeof(send_buffer)); 
+
+                    char recv_buffer[45000] = { 0 };
+                    recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+                    printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
+
+					for (int k = 0;; k++) {
+						int image_size;
+						int err = recv(socket_fd, &image_size, sizeof(image_size), MSG_WAITALL);
+						if (err < 1) continue;
+						if (image_size == 0) continue; // ?
+
+						//printf("Image Size: %d\n", image_size);
+						if (image_size == -1) break;
+
+						char image_file_name[40] = { 0 };
+						recv(socket_fd, image_file_name, sizeof(image_file_name), MSG_WAITALL);
+						strcat(image_file_name, ".jpg");
+
+						char* image_buffer = malloc(image_size);
+						recv(socket_fd, image_buffer, image_size, MSG_WAITALL);
+
+						FILE* f = fopen(image_file_name, "wb");
+						fwrite(image_buffer, image_size, 1, f);
+						fclose(f);
+
+						free(image_buffer);
+					}
+                }
+                break;
+            case OPTION_6:
+                {
+                    int c;
+                    while ((c = getchar()) != '\n' && c != EOF);
+
+                    printf("Digite o email do perfil: ");
+                    char email[100] = { 0 }; // NOTE: buffer overflow possible
+                    scanf(" %[^\n]", email);
+                    getchar();
+
+                    char send_buffer[101] = { option }; 
+                    strcpy(send_buffer+1, email);
+                    write(socket_fd, send_buffer, sizeof(send_buffer)); 
+
+                    char recv_buffer[1000] = { 0 };
+                    recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+                    printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
+
+					int image_size;
+					recv(socket_fd, &image_size, sizeof(image_size), MSG_WAITALL);
+					char* image_buffer = malloc(image_size);
+					recv(socket_fd, image_buffer, image_size, MSG_WAITALL);
+					FILE* f = fopen("test_img", "wb");
+					fwrite(image_buffer, image_size, 1, f);
+					fclose(f);
+					free(image_buffer);
+                }
+                break;
+        }
 	}
 
     return 0;
