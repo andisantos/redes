@@ -412,7 +412,7 @@ int main()
                         close(connfd);
                         exit(0);
                     } else {
-                        printf("Received %d-byte message from client: %d\n", n, recv_buffer[0]);
+                        printf("Received message from client: Option %d\n", recv_buffer[0] - OPTION_1 + 1);
 
                         assert(n == 1);
                         int option = recv_buffer[0];

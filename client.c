@@ -178,8 +178,6 @@ int main (int argc, char **argv) {
                     char recv_buffer[45000] = { 0 };
                     recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
 
-                    END_TIMER;
-
                     printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
 
 					for (int k = 0;; k++) {
@@ -206,6 +204,8 @@ int main (int argc, char **argv) {
                             free(image_buffer);
                         }
 					}
+
+                    END_TIMER;
                 }
                 break;
             case OPTION_6:
@@ -232,8 +232,6 @@ int main (int argc, char **argv) {
 					int image_size;
 					recv(socket_fd, &image_size, sizeof(image_size), MSG_WAITALL);
 
-                    END_TIMER;
-
                     if (image_size != -1) {
                         char image_file_name[40] = { 0 };
                         strcat(image_file_name, "images/");
@@ -251,6 +249,8 @@ int main (int argc, char **argv) {
                             free(image_buffer);
                         }
                     }
+
+                    END_TIMER;
                 }
                 break;
         }
