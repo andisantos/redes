@@ -9,9 +9,13 @@
 #include <unistd.h>
 #include <sqlite3.h>
 #include <assert.h>
+#include <time.h>
+#include <sys/time.h>
 #include "common.h"
 
 #define MAX_BLOB_RESULTS_SIZE 40000000
+
+#define ERROR_MSG "\nERRO: Nenhum cadastro correspondente encontrado.\n"
 
 #define PORT 8080 
 #define SA struct sockaddr 
@@ -37,15 +41,18 @@ int callback_option_1(void *uncast_data, int argc, char **argv, char **azColName
 }
 
 // TODO: make the course not hardcoded
-char* do_option_1(char* results_str, char* course) {
+void do_option_1(char* results_str, char* course) {
     char sql[500] = { 0 };
     sprintf(sql, "select * from Profile where Academic == \"%s\"", course);
-
-    printf("DEBUG sql: %s\n", sql);
 
     char *err_msg = 0;
     count = 0;
     int rc = sqlite3_exec(db, sql, callback_option_1, results_str, &err_msg);
+
+    if (count == 0) {
+        strcpy(results_str, ERROR_MSG);
+        return;
+    }
 
     if (rc != SQLITE_OK ) {
         fprintf(stderr, "Failed to select data\n");
@@ -74,7 +81,7 @@ int callback_option_2(void *uncast_data, int argc, char **argv, char **azColName
     return 0;
 }
 
-char * do_option_2(char* results_str, char *city) {
+void do_option_2(char* results_str, char *city) {
     char sql[500] = { 0 };
     sprintf(sql, "select * from Profile p inner join Abilities a on p.Id = a.Id where Addr = \"%s\";", city);
 
@@ -82,25 +89,10 @@ char * do_option_2(char* results_str, char *city) {
     count = 0;
     int rc = sqlite3_exec(db, sql, callback_option_2, results_str, &err_msg);
 
-    if (rc != SQLITE_OK ) {
-        fprintf(stderr, "Failed to select data\n");
-        fprintf(stderr, "SQL error: %s\n", err_msg);
-
-        sqlite3_free(err_msg);
-        sqlite3_close(db);
-
-        fprintf(stderr, "Errors happened! Killed process with pid %d.\n", getpid());
-        exit(1);
-    } 
-}
-
-char * do_option_3(char* results_str, char *email, char *experience) {
-    char sql[500] = { 0 };
-    sprintf(sql, "insert into Experiences values ((select Id from Profile where Email = \"%s\"), \"%s\");", email, experience);
-
-    char *err_msg = 0;
-    count = 0;
-    int rc = sqlite3_exec(db, sql, NULL, results_str, &err_msg);
+    if (count == 0) {
+        strcpy(results_str, ERROR_MSG);
+        return;
+    }
 
     if (rc != SQLITE_OK ) {
         fprintf(stderr, "Failed to select data\n");
@@ -129,13 +121,54 @@ int callback_option_4(void *uncast_data, int argc, char **argv, char **azColName
     return 0;
 }
 
-char * do_option_4(char* results_str, char *email) {
+void do_option_3(char* results_str, char *email, char *experience) {
+    {
+        char sql[500] = { 0 };
+        sprintf(sql, "select Experience from Experiences where Id = (select Id from Profile where Email = \"%s\");", email);
+
+        count = 0;
+        int rc = sqlite3_exec(db, sql, callback_option_4, results_str, NULL);
+        results_str[0] = 0;
+
+        if (count == 0) {
+            strcpy(results_str, ERROR_MSG);
+            return;
+        }
+    }
+
+
+    char sql[500] = { 0 };
+    sprintf(sql, "insert into Experiences values ((select Id from Profile where Email = \"%s\"), \"%s\");", email, experience);
+
+    char *err_msg = 0;
+    count = 0;
+    int rc = sqlite3_exec(db, sql, NULL, results_str, &err_msg);
+
+    if (rc != SQLITE_OK ) {
+        fprintf(stderr, "Failed to select data\n");
+        fprintf(stderr, "SQL error: %s\n", err_msg);
+
+        sqlite3_free(err_msg);
+        sqlite3_close(db);
+
+        fprintf(stderr, "Errors happened! Killed process with pid %d.\n", getpid());
+        exit(1);
+    } 
+}
+
+
+void do_option_4(char* results_str, char *email) {
     char sql[500] = { 0 };
     sprintf(sql, "select Experience from Experiences where Id = (select Id from Profile where Email = \"%s\");", email);
 
     char *err_msg = 0;
     count = 0;
     int rc = sqlite3_exec(db, sql, callback_option_4, results_str, &err_msg);
+
+    if (count == 0) {
+        strcpy(results_str, ERROR_MSG);
+        return;
+    }
 
     if (rc != SQLITE_OK ) {
         fprintf(stderr, "Failed to select data\n");
@@ -166,13 +199,14 @@ int callback_option_6(void *uncast_data, int argc, char **argv, char **azColName
             strcat(data, ": ");
             strcat(data, argv[i]);
             strcat(data, "\n");
+            count++;
         }
     }
 
     return 0;
 }
 
-char * do_option_6(char* results_str, char *email) {
+void do_option_6(char* results_str, char *email) {
     char sql[500] = { 0 };
     // TODO: Photo
     sprintf(sql, "select Email, Name, SurName, Addr, Academic from Profile where Email = \"%s\";", email);
@@ -182,6 +216,12 @@ char * do_option_6(char* results_str, char *email) {
     char *err_msg = 0;
     count = 0;
     int rc = sqlite3_exec(db, sql, callback_option_6, results_str, &err_msg);
+
+    // this should never happen if called via do_option_5
+    if (count == 0) {
+        strcpy(results_str, ERROR_MSG);
+        return;
+    }
 
     if (rc != SQLITE_OK ) {
         fprintf(stderr, "Failed to select data\n");
@@ -260,7 +300,7 @@ char * do_option_6(char* results_str, char *email) {
 
     strcat(results_str, "\n");
 
-	if (bytes > 0) {
+	//if (bytes > 0) {
 		memcpy(blob_results_ptr, &bytes, sizeof(bytes));
 		blob_results_ptr += sizeof(bytes);
 
@@ -271,7 +311,7 @@ char * do_option_6(char* results_str, char *email) {
 
 		memcpy(blob_results_ptr, sqlite3_column_blob(pStmt, 0), bytes);
 		blob_results_ptr += bytes;
-	}
+	//}
 }
 
 int callback_option_5(void *uncast_data, int argc, char **argv, char **azColName) {
@@ -383,9 +423,13 @@ int main()
                                     char param_buffer[100] = {0};
                                     int n = recv(connfd, param_buffer, sizeof(param_buffer), MSG_WAITALL); 
 
+                                    START_TIMER;
+
                                     char results_str[1000] = { 0 };
                                     do_option_1(results_str, param_buffer);
-                                    printf("Results str before sending:\n%s\n", results_str);
+
+                                    END_TIMER;
+
                                     write(connfd, results_str, sizeof(results_str)); 
                                 }
                                 break;
@@ -395,9 +439,13 @@ int main()
                                     char param_buffer[100] = {0};
                                     int n = recv(connfd, param_buffer, sizeof(param_buffer), MSG_WAITALL); 
 
+                                    START_TIMER
+
                                     char results_str[1000] = { 0 };
                                     do_option_2(results_str, param_buffer);
-                                    printf("Results str before sending:\n%s\n", results_str);
+
+                                    END_TIMER
+
                                     write(connfd, results_str, sizeof(results_str)); 
                                 }
                                 break;
@@ -409,10 +457,17 @@ int main()
                                     char param_buffer2[100] = {0};
                                     recv(connfd, param_buffer2, sizeof(param_buffer2), MSG_WAITALL); 
 
+                                    START_TIMER
+
                                     char results_str[1000] = { 0 };
                                     do_option_3(results_str, param_buffer1, param_buffer2);
 
-                                    strcpy(results_str, "Experiencia adicionada com sucesso!");
+                                    if (!strlen(results_str)) {
+                                        strcpy(results_str, "Experiencia adicionada com sucesso!");
+                                    }
+
+                                    END_TIMER
+
                                     write(connfd, results_str, sizeof(results_str)); 
                                 }
                                 break;
@@ -422,9 +477,13 @@ int main()
                                     char param_buffer[100] = {0};
                                     int n = recv(connfd, param_buffer, sizeof(param_buffer), MSG_WAITALL); 
 
+                                    START_TIMER
+
                                     char results_str[1000] = { 0 };
                                     do_option_4(results_str, param_buffer);
-                                    printf("results str before sending:\n%s\n", results_str);
+
+                                    END_TIMER
+
                                     write(connfd, results_str, sizeof(results_str)); 
                                 }
                                 break;
@@ -432,13 +491,16 @@ int main()
                                 {
                                     puts("");
 
+                                    START_TIMER
+
                                     char results_str[45000] = { 0 };
 									blob_results_ptr = &blob_results_str[0];
                                     do_option_5(results_str);
+
 									memset(blob_results_ptr, -1, sizeof(int));
 									blob_results_ptr += sizeof(int);
 
-                                    printf("results str before sending:\n%s\n", results_str);
+                                    END_TIMER
 
                                     write(connfd, results_str, sizeof(results_str)); 
                                     write(connfd, blob_results_str, blob_results_ptr - &blob_results_str[0]); 
@@ -450,11 +512,18 @@ int main()
                                     char param_buffer[100] = {0};
                                     int n = recv(connfd, param_buffer, sizeof(param_buffer), MSG_WAITALL); 
 
+                                    START_TIMER
+
                                     char results_str[1000] = { 0 };
 									blob_results_ptr = &blob_results_str[0];
                                     do_option_6(results_str, param_buffer);
 
-                                    printf("results str before sending:\n%s\n", results_str);
+                                    if (blob_results_ptr == &blob_results_str[0]) {
+                                        memset(blob_results_ptr, -1, sizeof(int));
+                                        blob_results_ptr += sizeof(int);
+                                    }
+
+                                    END_TIMER
 
                                     write(connfd, results_str, sizeof(results_str)); 
                                     write(connfd, blob_results_str, blob_results_ptr - &blob_results_str[0]); 

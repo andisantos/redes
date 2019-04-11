@@ -13,13 +13,12 @@
 
 int main (int argc, char **argv) {
     if (argc < 2) {
-        puts("Usage: ./client <server_port>");
+        puts("Usage: ./client <server_ip> <server_port>");
         return 1;
     }
 
-    // TODO: change hardcoded address
-    char *server_addr_str = "0.0.0.0";
-    int server_port = atoi(argv[1]);
+    char *server_addr_str = argv[1];
+    int server_port = atoi(argv[2]);
 
     long socket_fd = socket(AF_INET, SOCK_STREAM, 0);
     if (socket_fd < 0) {
@@ -155,23 +154,25 @@ int main (int argc, char **argv) {
 						int image_size;
 						int err = recv(socket_fd, &image_size, sizeof(image_size), MSG_WAITALL);
 						if (err < 1) continue;
-						if (image_size == 0) continue; // ?
+						//if (image_size == 0) continue;
 
-						//printf("Image Size: %d\n", image_size);
 						if (image_size == -1) break;
 
 						char image_file_name[40] = { 0 };
-						recv(socket_fd, image_file_name, sizeof(image_file_name), MSG_WAITALL);
+                        strcat(image_file_name, "images/");
+						recv(socket_fd, image_file_name + 7, sizeof(image_file_name), MSG_WAITALL);
 						strcat(image_file_name, ".jpg");
 
-						char* image_buffer = malloc(image_size);
-						recv(socket_fd, image_buffer, image_size, MSG_WAITALL);
+                        if (image_size > 0) {
+                            char* image_buffer = malloc(image_size);
+                            recv(socket_fd, image_buffer, image_size, MSG_WAITALL);
 
-						FILE* f = fopen(image_file_name, "wb");
-						fwrite(image_buffer, image_size, 1, f);
-						fclose(f);
+                            FILE* f = fopen(image_file_name, "wb");
+                            fwrite(image_buffer, image_size, 1, f);
+                            fclose(f);
 
-						free(image_buffer);
+                            free(image_buffer);
+                        }
 					}
                 }
                 break;
@@ -195,12 +196,24 @@ int main (int argc, char **argv) {
 
 					int image_size;
 					recv(socket_fd, &image_size, sizeof(image_size), MSG_WAITALL);
-					char* image_buffer = malloc(image_size);
-					recv(socket_fd, image_buffer, image_size, MSG_WAITALL);
-					FILE* f = fopen("test_img", "wb");
-					fwrite(image_buffer, image_size, 1, f);
-					fclose(f);
-					free(image_buffer);
+
+                    if (image_size != -1) {
+                        char image_file_name[40] = { 0 };
+                        strcat(image_file_name, "images/");
+                        recv(socket_fd, image_file_name + 7, sizeof(image_file_name), MSG_WAITALL);
+                        strcat(image_file_name, ".jpg");
+
+                        if (image_size > 0) {
+                            char* image_buffer = malloc(image_size);
+                            recv(socket_fd, image_buffer, image_size, MSG_WAITALL);
+
+                            FILE* f = fopen(image_file_name, "wb");
+                            fwrite(image_buffer, image_size, 1, f);
+                            fclose(f);
+
+                            free(image_buffer);
+                        }
+                    }
                 }
                 break;
         }
