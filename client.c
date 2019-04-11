@@ -9,6 +9,7 @@
 #include <string.h> 
 #include <sys/socket.h> 
 #include <sys/types.h> 
+#include <sys/time.h>
 #include "common.h"
 
 int main (int argc, char **argv) {
@@ -70,14 +71,19 @@ int main (int argc, char **argv) {
                     printf("Digite o nome do curso: ");
                     char course[100] = { 0 }; // NOTE: buffer overflow possible
                     scanf(" %s", course);
-                    //fgets(course, sizeof(course), stdin);
-                    //printf("\nRead: %s\n", course);
 
                     char send_buffer[101] = { option }; 
                     strcpy(send_buffer+1, course);
+
+                    START_TIMER;
+
                     write(socket_fd, send_buffer, sizeof(send_buffer)); 
+
                     char recv_buffer[1000] = { 0 };
                     recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+
+                    END_TIMER;
+
                     printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
                 }
                 break;
@@ -93,9 +99,16 @@ int main (int argc, char **argv) {
 
                     char send_buffer[101] = { option }; 
                     strcpy(send_buffer+1, city);
+
+                    START_TIMER;
+
                     write(socket_fd, send_buffer, sizeof(send_buffer)); 
+
                     char recv_buffer[1000] = { 0 };
                     recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+
+                    END_TIMER;
+
                     printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
                 }
                 break;
@@ -117,9 +130,16 @@ int main (int argc, char **argv) {
                     char send_buffer[201] = { option }; 
                     strcpy(send_buffer+1, email);
                     strcpy(send_buffer+101, experience);
+
+                    START_TIMER;
+
                     write(socket_fd, send_buffer, sizeof(send_buffer)); 
+
                     char recv_buffer[1000] = { 0 };
                     recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+
+                    END_TIMER;
+
                     printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
                 }
                 break;
@@ -135,19 +155,31 @@ int main (int argc, char **argv) {
 
                     char send_buffer[101] = { option }; 
                     strcpy(send_buffer+1, email);
+
+                    START_TIMER;
+
                     write(socket_fd, send_buffer, sizeof(send_buffer)); 
+
                     char recv_buffer[1000] = { 0 };
                     recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+
+                    END_TIMER;
+
                     printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
                 }
                 break;
             case OPTION_5:
                 {
+                    START_TIMER;
+
                     char send_buffer[1] = { option }; 
                     write(socket_fd, send_buffer, sizeof(send_buffer)); 
 
                     char recv_buffer[45000] = { 0 };
                     recv(socket_fd, recv_buffer, sizeof(recv_buffer), MSG_WAITALL); 
+
+                    END_TIMER;
+
                     printf("Resposta recebida do servidor:\n%s\n", recv_buffer);
 
 					for (int k = 0;; k++) {
@@ -188,6 +220,9 @@ int main (int argc, char **argv) {
 
                     char send_buffer[101] = { option }; 
                     strcpy(send_buffer+1, email);
+
+                    START_TIMER;
+
                     write(socket_fd, send_buffer, sizeof(send_buffer)); 
 
                     char recv_buffer[1000] = { 0 };
@@ -196,6 +231,8 @@ int main (int argc, char **argv) {
 
 					int image_size;
 					recv(socket_fd, &image_size, sizeof(image_size), MSG_WAITALL);
+
+                    END_TIMER;
 
                     if (image_size != -1) {
                         char image_file_name[40] = { 0 };
