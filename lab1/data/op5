@@ -1,0 +1,3139 @@
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 200.31 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 208.27 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 137.95 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 118.38 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 110.49 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 144.15 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 24.08 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 230.04 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 97.73 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 25.49 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 251.16 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 176.71 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 21.24 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 50.98 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 225.70 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 18.02 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 25.00 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 25.44 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 209.47 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 94.77 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 90.79 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 131.46 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
+
+5
+Time elapsed: 62.11 ms
+Resposta recebida do servidor:
+
+Email: gayxa_athenidesr@gmail.com
+Name: Gayxa
+Surname: Athenides
+Addr: Campinas
+Academic: Psicologia
+Photo file: gayxa_athenidesr@gmail.com.jpg
+Experiences: Esagio no CAPES, Estagio em hospital, Estagio em consultorio, aaa, Pantera, Comer pombos, Dark, Fofa
+Abilities: Cozinheira
+
+Email: Art_motor@gmail.com
+Name: Motorzinho
+Surname: Art
+Addr: Sao Paulo
+Academic: Biologia
+Photo file: Art_motor@gmail.com.jpg
+Experiences: Estagio em hospital, Estagio em laboratorio
+Abilities: Lenhador, Malabarista
+
+Email: blom.l@gmail.com
+Name: Luana
+Surname: Brume
+Addr: Sao Paulo
+Academic: Fisica
+Photo file: blom.l@gmail.com.jpg
+Experiences: Estagio em laboratorio de optica
+Abilities: Pastora
+
+Email: blom.r@gmail.com
+Name: Rafaela
+Surname: Blom
+Addr: Sao Paulo
+Academic: Literatura
+Photo file: blom.r@gmail.com.jpg
+Experiences: Estagio obrigatorio em escola
+Abilities: Cantora
+
+Email: santos.f@gmail.com
+Name: Fa
+Surname: Santos
+Addr: Sao Paulo
+Academic: Eng. Computacao
+Photo file: santos.f@gmail.com.jpg
+Experiences: Estagio na google, Einiciacao cientifica financiada pela samsung
+Abilities: Programadora
+
+Email: joaquins_yk@gmail.com
+Name: Joaquim
+Surname: Yorkie
+Addr: Minas Gerais
+Academic: Midialigia
+Photo file: joaquins_yk@gmail.com.jpg
+Experiences: NULL
+Abilities: Desinger
+
+Email: pedro.lua@gmail.com
+Name: Pedro
+Surname: Lua
+Addr: Piaui
+Academic: Artes cenicas
+Photo file: pedro.lua@gmail.com.jpg
+Experiences: Estagio no SESC Campinas
+Abilities: Ator
+
+Email: italovisk@gmail.com
+Name: Italovisk
+Surname: Krumper
+Addr: Rondonia
+Academic: Geologia
+Photo file: italovisk@gmail.com.jpg
+Experiences: Estagio em museu
+Abilities: identificacao de pedras
+
+Email: kaiokosta@gmail.com
+Name: Kaio
+Surname: Kosta
+Addr: Alagoas
+Academic: Artes Visuais
+Photo file: kaiokosta@gmail.com.jpg
+Experiences: Estagio no SESC Ipiranga
+Abilities: especialista em pontilhismo, tracos finos, pintura aquarela
+
+Email: kmarilo@gmail.com
+Name: Murilo
+Surname: Krita
+Addr: Barretos
+Academic: Engenharia Agricola
+Photo file: kmarilo@gmail.com.jpg
+Experiences: Estagio em fazenda
+Abilities: Manejo de gado, Montar cavalo, Cuidar de criacao
+
+Email: campirit@gmail.com
+Name: Toresmo
+Surname: Campari
+Addr: Kansas
+Academic: Engenharia Quimica
+Photo file: campirit@gmail.com.jpg
+Experiences: Estagio em laboratorio, Trabalho CLT em laboratorio de quimica organica
+Abilities: Fazer cupcakes
+
+Email: tha_jonverl@gmail.com
+Name: Thamiela
+Surname: Jonverl
+Addr: Blumenal
+Academic: Quimica
+Photo file: tha_jonverl@gmail.com.jpg
+Experiences: Estagio em laboratorio de quimica inorganica
+Abilities: Fazer misturas gostosas
+
+Email: jonathan@gmail.com
+Name: Jonathan
+Surname: Figueiredo
+Addr: Atafona
+Academic: Quimica
+Photo file: jonathan@gmail.com.jpg
+Experiences: Corredor, Calculista, Faqueiro, Goleiro, Faqueiro, Bandido, Futebolista, Futurista, Podcaster, Professor, Musico, Paraquedista, Nadador, Estudante, Apresentador, Troglodita, Tecnico de Redes, Corredor, Bombeiro, Matador, Otimista, Jogador de Smashh, Baixista
+Abilities:
+
+
+
+
+
+Escolha uma das opcoes:
+
+(1) listar todas as pessoas formadas em um determinado curso;
+(2) listar as habilidades dos perfis que moram em uma determinada cidade;
+(3) acrescentar um a nova experiencia em um perfil;
+(4) dado o email do perfil, retornar sua experiencia;
+(5) listar todas as informacoes de todos os perfis;
+(6) dado o email de um perfil, retornar suas informacoes.
+
+
