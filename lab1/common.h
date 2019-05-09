@@ -19,3 +19,16 @@ typedef enum {
     OPTION_5,
     OPTION_6
 } MessageType;
+
+typedef struct {
+    MessageType option;
+    char email[40];
+} Operation1RequestPacket;
+
+typedef struct {
+    char name[40];
+    char surname[40];
+    // TODO: photo
+    char errmsg[100];
+} Operation1ResponsePacket;
+
